@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex43;
+
+import static java.lang.Math.log;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex43 {
+
+    public static void main(String[] args) {
+        int num;
+        double loga;
+        
+        num=Integer.parseInt(JOptionPane.showInputDialog("Entre com o logaritmando:"));
+        
+        loga= log(num)/log(10);
+        
+        JOptionPane.showMessageDialog(null, "Logaritmo: " +loga);
+    }
+}
