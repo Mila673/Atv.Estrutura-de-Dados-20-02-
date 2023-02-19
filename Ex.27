@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex27;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex27 {
+
+    public static void main(String[] args) {
+        int x=2;
+        int y=5;
+        
+        JOptionPane.showMessageDialog(null, "x= " +x);
+        x++;
+        
+        JOptionPane.showMessageDialog(null, "y= " +y);
+        y--;
+        
+        JOptionPane.showMessageDialog(null, "O novo valor de x: " +x);
+        JOptionPane.showMessageDialog(null, "O novo valor de y: " +y);   
+    }
+}
