@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex26;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex26 {
+
+    public static void main(String[] args) {
+        int data, dia, mes, ano, ndata;
+        
+        data=Integer.parseInt(JOptionPane.showInputDialog("Digite a data no formato DDMMAA:"));
+       
+        dia=data/10000;
+        mes=(data%10000)/100;
+        ano=data%100;
+        ndata=(mes*10000)+(dia*100)+ano;
+        
+        JOptionPane.showMessageDialog(null, "\n Dia: " +dia);
+        JOptionPane.showMessageDialog(null, "\n Mes: " +mes);
+        JOptionPane.showMessageDialog(null, "\n Ano: " +ano);
+        JOptionPane.showMessageDialog(null, "\n Data no formato MMDDAA: " +ndata);
+    }
+}
