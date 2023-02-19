@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex12;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex12 {
+
+    public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Aprendendo Algoritmo!!!");
+        JOptionPane.showMessageDialog(null, "Com Anita e Guto");
+    }
+}
