@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex40;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex40 {
+
+    public static void main(String[] args) {
+        int d1; /*dividendo*/
+        int d2; /*divisor*/
+        int quoc;
+        int resto;
+        
+        d1=Integer.parseInt(JOptionPane.showInputDialog("Entre com o dividendo:"));
+        d2=Integer.parseInt(JOptionPane.showInputDialog("Entre com o divisor:"));
+        
+        quoc=d1/d2;
+        resto=d1%d2;
+        
+        JOptionPane.showMessageDialog(null, "Dividendo: " +d1);
+        JOptionPane.showMessageDialog(null, "Divisor: " +d2);
+        JOptionPane.showMessageDialog(null, "Quociente: " +quoc);
+        JOptionPane.showMessageDialog(null, "Resto: " +resto);
+               
+    }
+}
