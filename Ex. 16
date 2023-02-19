@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex16;
+
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex16 {
+
+    public static void main(String[] args) {
+        x n= new x();
+        int x = 10;
+        
+        JOptionPane.showMessageDialog(null, x);
+    }
+}
