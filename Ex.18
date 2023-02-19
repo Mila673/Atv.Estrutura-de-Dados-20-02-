@@ -1,0 +1,21 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex18;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex18 {
+
+    public static void main(String[] args) {
+        int x = 10;
+        x=x+1;
+        
+        JOptionPane.showMessageDialog(null, "Valor de x = " + x);
+    }
+}
