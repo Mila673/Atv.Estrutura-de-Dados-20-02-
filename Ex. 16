@@ -20,3 +20,15 @@ public class Ex16 {
         JOptionPane.showMessageDialog(null, x);
     }
 }
+
+Outra Java class:
+/*
+package com.mycompany.ex16;
+
+/**
+ *
+ * @author User
+ */
+class x {
+    int x;
+}
