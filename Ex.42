@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex42;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex42 {
+
+    public static void main(String[] args) {
+        int ang;
+        double rang;
+        
+        ang=Integer.parseInt(JOptionPane.showInputDialog("Digite um angulo em graus:"));
+        
+        rang=ang*3.14/180;
+        
+        JOptionPane.showMessageDialog(null, "Seno: sen(" +rang + ")");
+        JOptionPane.showMessageDialog(null, "Coseno: cos(" + rang + ")");
+        JOptionPane.showMessageDialog(null, "Tangente: tan(" + rang + ")");
+        JOptionPane.showMessageDialog(null, "Co-secante: 1/sen(" + rang + ")");
+        JOptionPane.showMessageDialog(null, "Secante: 1/cos(" + rang + ")");
+        JOptionPane.showMessageDialog(null, "Co-tangente: 1/tan(" + rang + ")");
+    }
+}
