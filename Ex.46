@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex46;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex46 {
+
+    public static void main(String[] args) {
+        int saldo;
+        double nsaldo;
+        
+        saldo=Integer.parseInt(JOptionPane.showInputDialog("Digite Saldo:"));
+        
+        nsaldo=(saldo*1.01);
+        
+        JOptionPane.showMessageDialog(null, "Novo saldo: " +nsaldo);
+    }
+}
