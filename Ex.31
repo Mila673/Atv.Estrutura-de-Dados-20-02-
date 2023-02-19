@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex31;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex31 {
+
+    public static void main(String[] args) {
+        int ma; 
+        
+        ma=(8+9+7)/3;
+        
+        JOptionPane.showMessageDialog(null, "A media aritmetica e: " +ma);
+    }
+}
