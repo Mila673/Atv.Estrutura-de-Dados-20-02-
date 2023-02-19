@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex23;
+
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class Ex23 {
+
+    public static void main(String[] args) {
+        int a, d;
+        a=Integer.parseInt(JOptionPane.showInputDialog("Digite um numero de tres casas:"));
+        
+        d=(a%100)/10;
+        
+        JOptionPane.showMessageDialog(null, "Algarismo da casa das dezenas: " +d);
+        
+    }
+}
