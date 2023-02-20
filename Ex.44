@@ -21,6 +21,6 @@ public class Ex44 {
         base=Integer.parseInt(JOptionPane.showInputDialog("Entre com o valor da base"));
         
         loga= log(base)/log(num);
-        JOptionPane.showMessageDialog(null, "Logaritmo de b: " + num + "na base " + base + "de: " + loga);
+        JOptionPane.showMessageDialog(null, "Logaritmo de b: " + num + " na base " + base + " de: " + loga);
     }
 }
