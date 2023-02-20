@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex44;
+
+import static java.lang.Math.log;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex44 {
+
+    public static void main(String[] args) {
+        int num, base;
+        double loga;
+        
+        num=Integer.parseInt(JOptionPane.showInputDialog("Entre com o valor do logaritmando"));
+        base=Integer.parseInt(JOptionPane.showInputDialog("Entre com o valor da base"));
+        
+        loga= log(base)/log(num);
+        JOptionPane.showMessageDialog(null, "Logaritmo de b: " + num + "na base " + base + "de: " + loga);
+    }
+}
