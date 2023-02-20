@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ex48;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eMiLy
+ */
+public class Ex48 {
+
+    public static void main(String[] args) {
+        int sm, qt, preco, vp, vd;
+        
+        sm=Integer.parseInt(JOptionPane.showInputDialog("Entre com o salario minimo:"));
+        qt=Integer.parseInt(JOptionPane.showInputDialog("Entre com a quant. em quilowatt:"));
+        
+        preco=sm/700;
+        vp=preco*qt;
+        vd=(int) (vp*0.9);
+        
+        JOptionPane.showMessageDialog(null, "Preço do quilowatt: " + preco);
+        JOptionPane.showMessageDialog(null, "Valor a ser pago: " + vp);
+        JOptionPane.showMessageDialog(null, "Valor com desconto: " + vd);
+    }
+}
